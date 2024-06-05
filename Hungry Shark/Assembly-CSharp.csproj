@@ -63,9 +63,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\IsIdling.cs" />
     <Compile Include="Assets\Scripts\Chameleon Scripts\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Chameleon Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\IsRunning.cs" />
     <Compile Include="Assets\Map\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\IsWalking.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Map\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

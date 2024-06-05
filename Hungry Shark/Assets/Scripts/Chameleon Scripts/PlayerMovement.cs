@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isRunning;
     private Animator animator; // Référence au composant Animator
+    private float speedMultiplier = 1f;
 
     void Start()
     {
@@ -57,13 +58,26 @@ public class PlayerMovement : MonoBehaviour
         // Obtenir l'entrée du joueur
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        // Vérifier si le personnage doit courir
-        isRunning = Input.GetKey(KeyCode.LeftShift);
+        // Gérer l'accélération du personnage
+        if (vertical > 0)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speedMultiplier = 2f;
+            }
+            else
+            {
+                speedMultiplier = 1f;
+            }
+        }
+        else
+        {
+            speedMultiplier = 0f;
+        }
 
         // Vérifier si le personnage doit se déplacer
-        if (direction.magnitude >= 0.1f)
+        if (vertical != 0 || horizontal != 0)
         {
             // Calculer la direction de la caméra
             Vector3 cameraForward = playerCamera.transform.forward;
@@ -79,12 +93,21 @@ public class PlayerMovement : MonoBehaviour
 
             // Calculer le vecteur de mouvement en fonction de la direction de la caméra
             Vector3 moveDir = (cameraForward * vertical + cameraRight * horizontal).normalized;
-            float currentSpeed = isRunning ? runSpeed : walkSpeed;
+            float currentSpeed = walkSpeed * speedMultiplier; // Appliquer le multiplicateur de vitesse
             controller.Move(moveDir * currentSpeed * Time.deltaTime);
 
             // Activer l'animation de marche/course
             animator.SetBool("IsWalking", true);
-            animator.SetFloat("Speed", isRunning ? currentSpeed * 2f : currentSpeed);
+            animator.SetFloat("Speed", currentSpeed);
+            // Activer l'animation de course si le joueur appuie sur la touche de course
+            if (speedMultiplier == 2f)
+            {
+                animator.SetBool("IsRunning", true);
+            }
+            else
+            {
+                animator.SetBool("IsRunning", false);
+            }
 
             // Faire tourner le personnage vers la direction du mouvement de manière fluide
             Quaternion targetRotation = Quaternion.LookRotation(moveDir);
@@ -92,13 +115,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Garder l'animation de marche/course activée même si le personnage ne se déplace pas
-            animator.SetBool("IsWalking", true);
-            // Désactiver l'animation de course pour éviter que le personnage ne coure sans bouger
-            animator.SetFloat("Speed", walkSpeed);
-
-            // Réinitialiser la vitesse du personnage à zéro pour l'empêcher de dériver
-            controller.Move(Vector3.zero);
+            // Désactiver l'animation de marche/course si le personnage ne se déplace pas
+            animator.SetBool("IsWalking", false);
         }
 
         // Appliquer la gravité
