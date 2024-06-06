@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Horse
+  - Chicken
+  - Deer
+  - Point
+  - Floor
+  - Wall
+  - AI
+  - Stairs
+  - Action
+  - Terrain
   layers:
   - Default
   - TransparentFX

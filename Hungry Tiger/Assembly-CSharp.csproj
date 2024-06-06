@@ -63,17 +63,50 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Character\Scripts\BasicBehaviour.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\CraftingSystem.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\TooltipSystem.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\ItemActionsSystem.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\BuildSystem.cs" />
     <Compile Include="Assets\IsIdling.cs" />
-    <Compile Include="Assets\DeplacementAleatoiredesMobs.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Course.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\RecipeData.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\EquipmentLibrary.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Character\Scripts\FlyBehaviour.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Equipment.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Chameleon Scripts\FollowCamera.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\CollisionDetectionEdge.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\BuildingRequiredElement.cs" />
     <Compile Include="Assets\Scripts\Chameleon Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\IsRunning.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Tooltip.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Interact.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\ItemData.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Map\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\IsWalking.cs" />
     <Compile Include="Assets\Gravity.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\PointDetectionEdge.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Recipe.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\InteractBehaviour.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\AttackBehaviour.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Character\Scripts\MoveBehaviour.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Slot.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Character\Scripts\AimBehaviourBasic.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\ElementRequired.cs" />
+    <Compile Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\Assets\Scripts\Grid.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Characters\Bear\creer-un-jeu-de-survie-unity-tufr-2022-main\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Map\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
   </ItemGroup>
   <ItemGroup>

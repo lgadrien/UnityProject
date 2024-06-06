@@ -1,0 +1,1047 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/adri1/Desktop/Projet Unity/Hungry Tiger
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62962
+Successfully changed project path to: C:/Users/adri1/Desktop/Projet Unity/Hungry Tiger
+C:/Users/adri1/Desktop/Projet Unity/Hungry Tiger
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [71724] Host "[IP] 10.38.165.38 [Port] 0 [Flags] 2 [Guid] 1033582295 [EditorId] 1033582295 [Version] 1048832 [Id] WindowsEditor(7,WorkstationPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [71724] Host "[IP] 10.38.165.38 [Port] 0 [Flags] 2 [Guid] 1033582295 [EditorId] 1033582295 [Version] 1048832 [Id] WindowsEditor(7,WorkstationPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adri1/Desktop/Projet Unity/Hungry Tiger/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005410 seconds.
+- Loaded All Assemblies, in  0.238 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.177 seconds
+Domain Reload Profiling: 414ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (177ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (59.1 KB). Loaded Objects now: 3659.
+Memory consumption went from 132.4 MB to 132.4 MB.
+Total: 2.305900 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.001000 ms  DeleteObjects: 0.085000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 908153.174110 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets
+  artifactKey: Guid(949aa39460f551a429e314bbdf846f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets using Guid(949aa39460f551a429e314bbdf846f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a2fa24ff79b2a0589af8672596a850') in 0.002816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.831793 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Packages
+  artifactKey: Guid(5f2f756d838b58442b6c847d2b9f06f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Packages using Guid(5f2f756d838b58442b6c847d2b9f06f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ccd761b3083118208532733aee1912') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.327770 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character
+  artifactKey: Guid(112ba712ff84fe54baee7ad2f700c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character using Guid(112ba712ff84fe54baee7ad2f700c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5295a1e7a2ef9d26e336419ce6a08083') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.151736 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts
+  artifactKey: Guid(bbbed778c32c9564183f656215edbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts using Guid(bbbed778c32c9564183f656215edbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605477a4700e33e31d231abc6a2d597') in 0.000359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.159231 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/AimBehaviourBasic.cs
+  artifactKey: Guid(247335de9c2ba3d49bbbada1d0562339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/AimBehaviourBasic.cs using Guid(247335de9c2ba3d49bbbada1d0562339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3543ab2a87a3a2cce1bfca81f1393d9e') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.539317 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/BasicBehaviour.cs
+  artifactKey: Guid(7d91044bddee1594cb64cddcbb5e76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/BasicBehaviour.cs using Guid(7d91044bddee1594cb64cddcbb5e76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcf495909718c2ce5be6f9a8ac0ea8c') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.134847 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/FlyBehaviour.cs
+  artifactKey: Guid(3b86dbbaaa422b64d8a77740b0e66a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/FlyBehaviour.cs using Guid(3b86dbbaaa422b64d8a77740b0e66a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d1fca5afeeb28c593bf47d277fc5d1') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.662682 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/MoveBehaviour.cs
+  artifactKey: Guid(b04cfe015b44cfc4fb97244a8ce150c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/MoveBehaviour.cs using Guid(b04cfe015b44cfc4fb97244a8ce150c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3227298cde8716d70be409919e0592') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.584506 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/ThirdPersonOrbitCamBasic.cs
+  artifactKey: Guid(455241d876ac8b44d8a43bf97c726307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/ThirdPersonOrbitCamBasic.cs using Guid(455241d876ac8b44d8a43bf97c726307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82de68c09f5c365351ab2dede5353b4') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.7 KB). Loaded Objects now: 3661.
+Memory consumption went from 131.0 MB to 131.0 MB.
+Total: 1.879000 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.625600 ms  DeleteObjects: 0.048700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.712624 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(ae361e140208f9442b8c9ff9184ac96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scenes/MainMenu.unity using Guid(ae361e140208f9442b8c9ff9184ac96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7208c61bd8b26788a49b54c86aa375ce') in 0.002433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.374382 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scenes/Scene.unity
+  artifactKey: Guid(241eb062c4386e548bef5ff612ed7049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scenes/Scene.unity using Guid(241eb062c4386e548bef5ff612ed7049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b07c6f735d11fd0f6d4dc1b34de9a37') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.312 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3664.
+Memory consumption went from 131.0 MB to 131.0 MB.
+Total: 2.169800 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.886700 ms  DeleteObjects: 0.045700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.310 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 988ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (679ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3667.
+Memory consumption went from 131.3 MB to 131.2 MB.
+Total: 2.042600 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.781000 ms  DeleteObjects: 0.043200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.312 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 991ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3670.
+Memory consumption went from 131.3 MB to 131.2 MB.
+Total: 3.181900 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.069500 ms MarkObjects: 2.729700 ms  DeleteObjects: 0.160800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 995ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 3673.
+Memory consumption went from 131.3 MB to 131.2 MB.
+Total: 2.681300 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.155100 ms MarkObjects: 2.237100 ms  DeleteObjects: 0.101600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.290005 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI
+  artifactKey: Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI using Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa89406cbd4bd0c704f183b1f1d929ff') in 0.008446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.654242 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear
+  artifactKey: Guid(573a78adcd42a2f48ab7e4396af684af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear using Guid(573a78adcd42a2f48ab7e4396af684af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a745786faefa01a597e573f352758e9b') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.273597 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Animations
+  artifactKey: Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Animations using Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dfb11f46d4b7451fcec22dc0ef04b6') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.028484 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Materials
+  artifactKey: Guid(4fa083c392449524a904b1dd25aa97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Materials using Guid(4fa083c392449524a904b1dd25aa97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c6f53f901b51ebe0beac2108bae296') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.418359 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Meshes
+  artifactKey: Guid(c9b2e892704b61c4f8222d0bd254c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Meshes using Guid(c9b2e892704b61c4f8222d0bd254c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc142b34c7cd6559819331ee5f7b45e2') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.056380 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Textures
+  artifactKey: Guid(4c2ebd47ee1e53c4d8dcb56e359a594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Textures using Guid(4c2ebd47ee1e53c4d8dcb56e359a594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82eff44749c933f7f981491746396d3') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.655968 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Prefabs
+  artifactKey: Guid(fd1f0b2fba998b740808cbc90d18d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Prefabs using Guid(fd1f0b2fba998b740808cbc90d18d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85016d3ed636769a87a9ced4e3ad5d6c') in 0.000374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.899851 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts
+  artifactKey: Guid(80c403bf06fd0164ca3b24eb3efe8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts using Guid(80c403bf06fd0164ca3b24eb3efe8ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c182ad488698b51e61c9ed44cc2b0262') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.634560 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/AttackBehaviour.cs
+  artifactKey: Guid(58d2e420bdc9c7f47b6416685a2454a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/AttackBehaviour.cs using Guid(58d2e420bdc9c7f47b6416685a2454a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a3c9e4b4ec0ee12d1bf9ecd9598d6e') in 0.000462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.504403 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/ItemActionsSystem.cs
+  artifactKey: Guid(133471b370d1c804398595f565f4d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/ItemActionsSystem.cs using Guid(133471b370d1c804398595f565f4d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b10d41f8550820582b15e12db05976') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.382285 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Item.cs
+  artifactKey: Guid(617eab301ccd55b47a73707f02f3ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Item.cs using Guid(617eab301ccd55b47a73707f02f3ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7a86f1ae892ab36a4e914ddc8d47d') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.354949 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Inventory.cs
+  artifactKey: Guid(7e71a6e1b07ab7048a0d52971f6d40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Inventory.cs using Guid(7e71a6e1b07ab7048a0d52971f6d40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98c9f459b0a01f734c0a7b7204c8562') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.695963 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/UIManager.cs
+  artifactKey: Guid(ccf73af5b6cd8cf48b143aaf36d12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/UIManager.cs using Guid(ccf73af5b6cd8cf48b143aaf36d12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ca739580d254b74ebc925b219de580') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.450127 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/TooltipSystem.cs
+  artifactKey: Guid(bfac2baa4947c3a4883f56fd9de9e1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/TooltipSystem.cs using Guid(bfac2baa4947c3a4883f56fd9de9e1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e217930702760a894d6f6ea7d7b22ef2') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.329297 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Tooltip.cs
+  artifactKey: Guid(8a599434777da4c4899c70e36142748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Tooltip.cs using Guid(8a599434777da4c4899c70e36142748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab88a7bb76f92c63b1c037fa6f4ae607') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.499450 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/BuildSystem.cs
+  artifactKey: Guid(77d62fabd9974a54f846533ad6a9e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/BuildSystem.cs using Guid(77d62fabd9974a54f846533ad6a9e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ca1759c0f53423f4233db3579d683e') in 0.000397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.581521 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/BuildingRequiredElement.cs
+  artifactKey: Guid(287dbb6f53769fd459e7d97d7a10ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/BuildingRequiredElement.cs using Guid(287dbb6f53769fd459e7d97d7a10ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cbd7f6fc8a5246b29b3204551ae4a7') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.092108 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Harvestable.cs
+  artifactKey: Guid(fe8fa91ff7c76e04a830ff1666f6b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Harvestable.cs using Guid(fe8fa91ff7c76e04a830ff1666f6b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33bae6389ae012c8debdc6d22a11dd2') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.522224 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Interact.cs
+  artifactKey: Guid(14e8880acdb063b468ea365f8808a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Interact.cs using Guid(14e8880acdb063b468ea365f8808a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0c887fa52c1028137c1cef2e6a434b') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.655949 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/InteractBehaviour.cs
+  artifactKey: Guid(f5e9ee0999744454c8760aa5fb506aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/InteractBehaviour.cs using Guid(f5e9ee0999744454c8760aa5fb506aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7063cd78141190fd96ae9b5c3fc6695') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.744777 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(16110e6a01aa0374ead6c245ffe8995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/MainMenu.cs using Guid(16110e6a01aa0374ead6c245ffe8995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d02b182f031c256c00cb3cd05756a5d') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.315532 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(cb8f97b29373bfc4080d4a1760069994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PauseMenu.cs using Guid(cb8f97b29373bfc4080d4a1760069994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef568f5d81e51e0339ec545fea42e98') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.401707 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(99ab0e3f5b6e37c4894641ba85bdbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PlayerStats.cs using Guid(99ab0e3f5b6e37c4894641ba85bdbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb8a6ae596ec26d10b5a83b86fc42cb') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.422707 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PointDetectionEdge.cs
+  artifactKey: Guid(82cba8aaf96446247b997a5282a42a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/PointDetectionEdge.cs using Guid(82cba8aaf96446247b997a5282a42a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7051beed0fc87ae033b58c918892fde8') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.335885 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Recipe.cs
+  artifactKey: Guid(02cd33c588e59974babd172035c0c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Recipe.cs using Guid(02cd33c588e59974babd172035c0c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf7c7611d1b2c220272f09d7ea5bd2e') in 0.000403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.286586 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/SaveSystem.cs
+  artifactKey: Guid(65cd77d8e646d6d40a0d1a6ce22cd1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/SaveSystem.cs using Guid(65cd77d8e646d6d40a0d1a6ce22cd1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5fc9c1a88944d698365225c35ebc6d') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.881618 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Slot.cs
+  artifactKey: Guid(9af740ea915aa724bb47dfc9b8c114d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/Slot.cs using Guid(9af740ea915aa724bb47dfc9b8c114d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3603fdc5f1deddc418a0e17785b508a') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.522825 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/RecipeData.cs
+  artifactKey: Guid(6ab95c1576ddbd149bd53930112bef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/RecipeData.cs using Guid(6ab95c1576ddbd149bd53930112bef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc13db13dc5f4c3fe2e26e487570baf') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.217653 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/RecipesInstances
+  artifactKey: Guid(ca59805ed961a72468b83ed1ddb834b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/RecipesInstances using Guid(ca59805ed961a72468b83ed1ddb834b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4faedb90f2e141b5cf620ab0dbb1e2a') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.493916 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/ItemsInstances
+  artifactKey: Guid(154f3043aceffc941a007f9bd2bc399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Scripts/ItemsInstances using Guid(154f3043aceffc941a007f9bd2bc399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb541ead2d038ba9437fdb5974f2c46a') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.069963 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/README.md
+  artifactKey: Guid(b3197b11667d12d44bca802d8f3925ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/README.md using Guid(b3197b11667d12d44bca802d8f3925ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daf78ce436c7c7eb565b85a95814a71') in 0.007961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.731336 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/LICENSE
+  artifactKey: Guid(a953113778bee2942a1c636813ec7aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/LICENSE using Guid(a953113778bee2942a1c636813ec7aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a70d413cc1951ac826810f9696bbb9') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.738337 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Animations/BearController.controller
+  artifactKey: Guid(de4c19496b9389b4da41db9dd473665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/AI/Bear/Bear_Animations/BearController.controller using Guid(de4c19496b9389b4da41db9dd473665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ba3e4493061253353e3d77ef93e458') in 0.315387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 84.270849 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809ee0184fcaa9db1c43c5a45eb8aa83') in 0.000753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 65.482893 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/BasicBehaviour.cs
+  artifactKey: Guid(7d91044bddee1594cb64cddcbb5e76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/BasicBehaviour.cs using Guid(7d91044bddee1594cb64cddcbb5e76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e497fba006e70c016ae4308061b9330') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.584110 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/AimBehaviourBasic.cs
+  artifactKey: Guid(247335de9c2ba3d49bbbada1d0562339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/AimBehaviourBasic.cs using Guid(247335de9c2ba3d49bbbada1d0562339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63858585469911624ea7037c7d9ad7ad') in 0.000426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.394788 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/FlyBehaviour.cs
+  artifactKey: Guid(3b86dbbaaa422b64d8a77740b0e66a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/FlyBehaviour.cs using Guid(3b86dbbaaa422b64d8a77740b0e66a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4f97ea7bbfbc8caf64fd71c03a9cdb') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.548296 seconds.
+  path: Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/MoveBehaviour.cs
+  artifactKey: Guid(b04cfe015b44cfc4fb97244a8ce150c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bear/creer-un-jeu-de-survie-unity-tufr-2022-main/Assets/Character/Scripts/MoveBehaviour.cs using Guid(b04cfe015b44cfc4fb97244a8ce150c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bdf147de00229d75dd09efb9536c37') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.311 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 3677.
+Memory consumption went from 131.1 MB to 131.0 MB.
+Total: 2.925400 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.064800 ms MarkObjects: 2.484700 ms  DeleteObjects: 0.189700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.309 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3680.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.678400 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.346200 ms  DeleteObjects: 0.050500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeplacementAleatoiredesMobs.cs: ce4ca4ce249e736db7cda02e8dbccf62 -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=Une connexion existante a dû être fermée par l’hôte distant.
